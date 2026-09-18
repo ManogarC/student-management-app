@@ -30,7 +30,7 @@ pipeline {
             steps {
                 bat 'docker stop student-app-container || exit 0'
                 bat 'docker rm student-app-container || exit 0'
-                bat 'docker run -d -p 8080:8080 --name student-app-container student-app'
+                bat 'docker run -d -p 8081:8080 --name student-app-container student-app'
             }
         }
     }
