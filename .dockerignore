@@ -1,0 +1,12 @@
+.git
+.github
+.idea
+.vscode
+.mvn
+src
+*.iml
+*.log
+.DS_Store
+Dockerfile
+README.md
+Jenkinsfile
